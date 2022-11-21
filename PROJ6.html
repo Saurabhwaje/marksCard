@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      table{
+        box-shadow: 5px 5px 15px 5px black;
+        background-color: black;
+      }
+      #heading{
+        background-color: rgb(95, 0, 248);
+        color: white;
+      }
+      #red{
+        text-align: center;
+        background-color: rgb(247, 81, 131);
+      }
+      td{
+        width: 120px;
+        height: 25px;
+      }
+      #table{
+        border-color: black;
+      }
+      #pink{
+        background-color: pink;
+        text-align: center;
+      }
+      #we{
+        text-align: center;
+        background-color: white;
+      }
+      #parent{
+        margin-left: 500px;
+        margin-top: 250px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="parent">
+      <table border="1px solid" id="table">
+        <tr>
+          <td colspan="2" id="heading">Subject</td>
+          <!-- <td>2</td> -->
+          <td id="heading">John Doe</td>
+          <td id="heading">Mirium Luther</td>
+        </tr>
+        <tr>
+          <td rowspan="2" id="we">Biology</td>
+          <td id="red"><div>Practical</div></td>
+          <td id="pink">A</td>
+          <td  id="red"><div>A</div></td>
+        </tr>
+        <tr>
+          <!-- <td>9</td> -->
+          <td id="pink">Theory</td>
+          <td  id="red"><div>A+</div></td>
+          <td id="pink">A</td>
+        </tr>
+        <tr>
+          <td rowspan="2"  id="red"><div>Chemistry</div></td>
+          <td id="we">Practical</td>
+          <td id="pink">B</td>
+          <td id="we">C</td>
+        </tr>
+        <tr>
+          <!-- <td>17</td> -->
+          <td id="pink">Theory</td>
+          <td id="we">A</td>
+          <td id="pink">C+</td>
+        </tr>
+        <tr>
+          <td rowspan="2" id="we">Physics</td>
+          <td  id="red"><div>Practical</div></td>
+          <td id="pink">A</td>
+          <td  id="red"><div>A</div></td>
+        </tr>
+        <tr>
+          <!-- <td>25</td> -->
+          <td id="pink">Theory</td>
+          <td  id="red"><div >A-</div></td>
+          <td id="pink">A-</td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>
